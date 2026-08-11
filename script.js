@@ -94,6 +94,21 @@ function playStream(streamUrl) {
   console.log("HLS Error:", data);
 });
 
+if (Hls.isSupported()) {
+
+    hls = new Hls({
+      enableWorker: true
+    });
+
+    hls.loadSource(streamUrl);
+    hls.attachMedia(video);
+
+    hls.on(Hls.Events.MANIFEST_PARSED, () => {
+      video.play();
+    });
+
+  }
+
   video.scrollIntoView({
     behavior: "smooth",
     block: "start"

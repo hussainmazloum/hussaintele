@@ -17,6 +17,7 @@ function createPost(name, url, icon, type) {
   postContainer.appendChild(postIcon);
 
   postContainer.addEventListener("click", () => {
+    
     if (type === "youtube") {
       playYoutube(url);
     } else {

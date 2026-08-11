@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+#title {
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  background-color: #0c334c;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px 0;
+  margin: 0;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding-top: 100px;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.post-container:hover {
+  transform: scale(1.02);
+}
+
+h3{
+  color:darkblue;
+  font-size:20px;
+}
+video{
+  display: flex;
+  width: 79%;
+  margin: 0 auto;
+
+  padding-top: 50px;
+}
+
+
+
+

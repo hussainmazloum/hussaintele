@@ -324,7 +324,7 @@ const posts = [
   },
 
 {
-    "name": "Conan",
+    "name": "Conann",
     "url": "https://fast.spacetoongo.com/channels/ba2f82fb-62ab-4139-ae62-7aa9c37638ee/master6000000.m3u8",
     "icon":"images/conan.png",
      "type": "hls"

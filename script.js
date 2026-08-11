@@ -36,10 +36,6 @@ function playYoutube(videoId) {
   const playerContainer = document.getElementById("player-container");
   const player = document.getElementById("youtubePlayer");
 
-  if (hls) {
-    hls.destroy();
-    hls = null;
-}
   // Stopp HLS
   video.pause();
   video.src = "";
@@ -57,60 +53,48 @@ function playYoutube(videoId) {
   });
 }
 
-let hls = null;
-
 function playStream(streamUrl) {
-
   const video = document.getElementById("video");
+  const playerContainer = document.getElementById("player-container");
+  const player = document.getElementById("youtubePlayer");
 
-  if (hls) {
-    hls.destroy();
-    hls = null;
-  }
+  // Stoppe YouTube
+  player.src = "";
+  playerContainer.style.display = "none";
 
-  video.pause();
+  // Vise  video HLS
+  video.style.display = "block";
 
   if (Hls.isSupported()) {
-
-    hls = new Hls({
-      enableWorker: true
-    });
+    const hls = new Hls();
 
     hls.loadSource(streamUrl);
     hls.attachMedia(video);
 
     hls.on(Hls.Events.MANIFEST_PARSED, () => {
+      
       video.play();
     });
 
-  } else {
-
-    video.src = streamUrl;
-    video.play();
-
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    hls = new Hls();
+          hls.loadSource(streamUrl);
+          hls.attachMedia(video);
   }
 
-  hls.on(Hls.Events.ERROR, function (event, data) {
-  console.log("HLS Error:", data);
-});
-
-if (Hls.isSupported()) {
-
-    hls = new Hls({
-      enableWorker: true
-    });
-
-    hls.loadSource(streamUrl);
-    hls.attachMedia(video);
-
-    hls.on(Hls.Events.MANIFEST_PARSED, () => {
-      video.play();
-    });
-
-  }
+  if  (video.canPlayType("application/vnd.apple.mpegurl")) {
+               video.src = streamUrl;
+                video.play();
+          } else if (Hls.isSupported()) {
+          hls = new Hls();
+          hls.loadSource(streamUrl);
+          hls.attachMedia(video);
+          }
 
   video.scrollIntoView({
     behavior: "smooth",
     block: "start"
   });
+
+    
 }

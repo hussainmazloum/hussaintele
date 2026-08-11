@@ -65,7 +65,7 @@ h3 {
 #video,
 #youtubePlayer {
   width: 100%;
-  height: 220px;
+  height: 500px;
   display: block;
 }
 
@@ -75,7 +75,7 @@ h3 {
   display: block;
   margin: 0 auto;
   width: 100%;
-  height: 220px;
+  height: 500px;
   border: 0;
 }
 
@@ -87,18 +87,15 @@ h3 {
   }
 
   #video,
+  #youtubePlayer,
   #player-container {
     position: fixed;
-    top: 0;
+    top: 45px; 
     left: 0;
     width: 100%;
     height: 180px;
     z-index: 1000;
     background: white;
-  }
-
-  #video {
-    height: 220px;
   }
 
 

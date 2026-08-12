@@ -2,6 +2,8 @@ const mainContainer = document.getElementById("container");
 
 const titleDiv = document.getElementById("title");
 
+//-------------------------------------------------------------------------
+
 const searchInput = document.createElement("input");
 searchInput.type = "text";
 searchInput.id = "finne";
@@ -22,6 +24,8 @@ searchInput.addEventListener("input", () => {
     }
   });
 });
+
+//--------------------------------------------------------------------------
 
 function createPost(name, url, icon, type) {
   const postContainer = document.createElement("div");

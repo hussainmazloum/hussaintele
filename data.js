@@ -310,7 +310,7 @@ const posts = [
   },
 
   {
-    "name": "The Lord of the Rings",
+    "name": "Lord of the Rings",
     "url": "G43NInZfoPE",
     "icon":"images/lord.png",
     "type": "youtube"
@@ -352,14 +352,14 @@ const posts = [
   },
 
   {
-    "name": "Tom & Jerry Warner",
+    "name": "Tom & Jerry wr.",
     "url": "400k2SKoeh4",
     "icon":"images/tom.png",
     "type": "youtube"
   },
 
   {
-    "name": "Masha and the Bear ",
+    "name": "Masha and Bear ",
     "url": "S_6wjcgw1mk",
     "icon":"images/masha.png",
     "type": "youtube"
@@ -478,7 +478,7 @@ const posts = [
   },
 
   {
-    "name": "Super_Simple_Songs",
+    "name": "Super Simple Songs",
     "url": "https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8",
     "icon":"images/super.png",
      "type": "hls"
@@ -507,14 +507,14 @@ const posts = [
   
 
   {
-    "name": "Abdul Basit Quran warsh",
+    "name": "Abdul Basit warsh",
     "url": "https://qurango.net/radio/abdulbasit_abdulsamad_warsh",
     "icon":"images/radio.png",
      "type": "hls"
   },
 
   {
-    "name": "Abdul Basit Quran mojawwad",
+    "name": "Abdul Basit tajwid",
     "url": "https://qurango.net/radio/abdulbasit_abdulsamad_mojawwad",
     "icon":"images/radio.png",
      "type": "hls"
@@ -542,7 +542,7 @@ const posts = [
   },
 
   {
-    "name": "Sharjaht Quran Radio",
+    "name": "Sharjaht Quran",
     "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/chunks.m3u8",
     "icon":"images/radio.png",
      "type": "hls"
@@ -715,61 +715,61 @@ const posts = [
   },
 
   {
-    "name": "Roya_Sport",
+    "name": "Roya Sport",
     "url": "https://playlist.fasttvcdn.com/pl/a2le4pbpa6rpzv147haf4w/youth-jordan/playlist/0.m3u8",
     "icon":"images/roya_1.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Comedy",
+    "name": "Roya Comedy",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-comedy/playlist/0.m3u8",
     "icon":"images/roya_2.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Drama",
+    "name": "Roya Drama",
     "url": "https://playlist.fasttvcdn.com/pl/a2le4pbpa6rpzv147haf4w/drama/playlist/0.m3u8",
     "icon":"images/roya_3.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Masrahyyat",
+    "name": "Masrahyyat",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/masrahyyat/playlist/0.m3u8",
     "icon":"images/roya_4.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Adel_Imam",
+    "name": "Adel Imam",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/adel-imam-movies/playlist/0.m3u8",
     "icon":"images/roya_7.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Al_Hayba",
+    "name": "Roya Al Hayba",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/alhayba/playlist/0.m3u8",
     "icon":"images/roya_2.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Maraya",
+    "name": "Roya Maraya",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/maraya/playlist/0.m3u8",
     "icon":"images/roya_3.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Action",
+    "name": "Roya Action",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/action/playlist/0.m3u8",
     "icon":"images/roya_7.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Shamyeh",
+    "name": "Roya Shamyeh",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/by2ah-shamyeh/playlist/0.m3u8",
     "icon":"images/roya_4.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Ayman_Zaydan",
+    "name": "Ayman Zaydan",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/ayman-zaydan/playlist/0.m3u8",
     "icon":"images/roya_6.png",
      "type": "hls"
@@ -787,37 +787,37 @@ const posts = [
      "type": "hls"
   },
   {
-    "name": "Roya Nadine_Njaim",
+    "name": "Nadine_Njaim",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/nadinenjaim/playlist/0.m3u8",
     "icon":"images/roya_3.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Kitchen",
+    "name": "Roya Kitchen",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-kitchen/playlist/0.m3u8",
     "icon":"images/roya_7.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Doc",
+    "name": "Roya Doc",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/documentaries/playlist/0.m3u8",
     "icon":"images/roya_4.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Kids_org",
+    "name": "Roya Kids org",
     "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-originals/playlist/0.m3u8",
     "icon":"images/roya_kids.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Adventure",
+    "name": "Roya Adventure",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-adventures/playlist/0.m3u8",
     "icon":"images/roya_7.png",
      "type": "hls"
   },
   {
-    "name": "Roya_Palestine",
+    "name": "Roya Palestine",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-palestine/playlist/0.m3u8",
     "icon":"images/roya_1.png",
      "type": "hls"
@@ -836,7 +836,7 @@ const posts = [
      "type": "hls"
   },
   {
-    "name": "Roya kids stories",
+    "name": "kids stories",
     "url": "https://playlist.fasttvcdn.com/pl/ptllxjd03j6g9oxxjdfapg/roya-kids-stories/playlist/0.m3u8",
     "icon":"images/royastory.png",
      "type": "hls"
@@ -926,7 +926,7 @@ const posts = [
   },
 
   {
-    "name": "Hard Knock Fighting",
+    "name": "Hard Knocks",
     "url": "https://d3uyzhwvmemdyf.cloudfront.net/scheduler/scheduleMaster/109/variant/22099396/8d216b41-1,96b-49d2-afb2-46cb9916f903.m3u8",
     "icon":"images/knock.png",
      "type": "hls"

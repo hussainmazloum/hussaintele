@@ -200,7 +200,7 @@ const posts = [
 
   {
     "name": "MBC 5",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/manifest/video/index.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
     "icon":"images/mbc5.png",
      "type": "hls"
   },

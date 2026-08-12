@@ -172,7 +172,7 @@ const posts = [
 
   {
     "name": "MBC",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8",
     "icon":"images/mbc1.png",
      "type": "hls"
   },
@@ -186,70 +186,70 @@ const posts = [
 
   {
     "name": "MBC 3",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8",
     "icon":"images/mbc_3.png",
      "type": "hls"
   },
 
   {
     "name": "MBC 4",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8",
     "icon":"images/mbc4.png",
      "type": "hls"
   },
 
   {
     "name": "MBC 5",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/manifest/video/index.m3u8",
     "icon":"images/mbc5.png",
      "type": "hls"
   },
 
   {
     "name": "MBC iraq",
-    "url": "https://shd-gcp-live.akamaized.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.akamaized.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8",
     "icon":"images/mbc_iraq.png",
      "type": "hls"
   },
 
   {
     "name": "MBC Bollywood",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8",
     "icon":"images/mbc_bollywood.png",
      "type": "hls"
   },
 
   {
     "name": "MBC Misr Drama",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8",
     "icon":"images/mbc_misrdrama.png",
      "type": "hls"
   },
 
   {
     "name": "MBC Drama",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8",
     "icon":"images/mbc_drama.png",
      "type": "hls"
   },
 
   {
     "name": "MBC Drama +",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8",
     "icon":"images/MBC_Drama_Plus.png",
      "type": "hls"
   },
 
   {
     "name": "MBC misr 1",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
     "icon":"images/MBC_Masr.png",
      "type": "hls"
   },
 
   {
     "name": "MBC misr 2",
-    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/manifest/video/1080p2400kbps/video.m3u8",
+    "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8",
     "icon":"images/mbc_masr2.png",
      "type": "hls"
   },

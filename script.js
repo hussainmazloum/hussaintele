@@ -1,9 +1,36 @@
 const mainContainer = document.getElementById("container");
 
+const titleDiv = document.getElementById("title");
+
+const searchInput = document.createElement("input");
+searchInput.type = "text";
+searchInput.id = "finne";
+searchInput.placeholder = "Søk kanal...";
+
+titleDiv.appendChild(searchInput);
+
+searchInput.addEventListener("input", () => {
+  const searchText = searchInput.value.toLowerCase();
+
+  document.querySelectorAll(".post-container").forEach(post => {
+    const title = post.querySelector("h3").textContent.toLowerCase();
+
+    if (title.includes(searchText)) {
+      post.style.display = "block";
+    } else {
+      post.style.display = "none";
+    }
+  });
+});
+
 function createPost(name, url, icon, type) {
   const postContainer = document.createElement("div");
   const postTitle = document.createElement("h3");
   const postIcon = document.createElement("img");
+
+  
+
+
 
   postTitle.textContent = name;
 

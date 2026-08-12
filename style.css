@@ -12,19 +12,32 @@ body {
 }
 
 #title {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
   width: 100%;
   text-align: center;
-  font-size: 48px;
+  font-size: 30px;
   background-color: #0c334c;
   color: #fff;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  padding: 10px 0;
+  padding: 10px 20px;
   margin: 0;
 
   /* position: fixed;
   top: 0;
   left: 0;
   z-index: 110; */
+}
+
+#finne {
+  width: 300px;
+  max-width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 #container {
@@ -99,15 +112,26 @@ h3 {
 #youtubePlayer {
   width: 900px;
   height: 450px;
-  
+
   padding-bottom: 5px;
 }
 
 @media (max-width: 780px) {
   #title {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
+    padding-top: 0;
   }
+  #finne {
+    width: 150px;
+    max-width: 90%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    
+  }
+
 
   #video,
   #youtubePlayer,
@@ -122,7 +146,7 @@ h3 {
   }
 
   #container {
-    margin-top: 190px;
+    margin-top: -300px;
   }
 
   .post-container {
